@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    
+
+    .about-restaurant-text-wrap {
+        display: flex;
+        gap: 32px;
+    }
+
+    .about-restaurant-list {
+        flex-direction: row-reverse;
+    }
+
+}

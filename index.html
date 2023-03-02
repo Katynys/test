@@ -16,6 +16,9 @@
     href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
     <section class="hero-restaurant">
@@ -103,11 +106,16 @@
             </h2>
             <ul class="about-restaurant-list">
                 <li class="about-restaurant-item">
-                    <img
+                    <!-- <picture>
+                        <source srcset="./img/img/mobile/about-restaurant_1.jpg 335w, ./img/img/tablet/about-restaurant_1.jpg 768w" media="(max-width: 375px)" sizes="(min-width: 335px) px, 100vw">
+                        <source srcset=" 800w,  1600w" media="(min-width: 601px)" sizes="(min-width: 800px) 800px, 100vw">
+                        <img src="" alt="">
+                    </picture> -->
+                <img
                         srcset=""
                         src="./img/img/mobile/about-restaurant_1.jpg" 
                         alt=""
-                        class=""
+                        class="about-restaurant-img"
                         width="335"
                         height="443"
                         >
@@ -117,20 +125,22 @@
                         srcset=""
                         src="./img/img/mobile/about-restaurant_2.jpg" 
                         alt=""
-                        class=""
+                        class="about-restaurant-img"
                         width="158"
                         height="149"
                         >
+                    <p class="about-restaurant-text">At Mimino, we are experts in meat <span>preparation</span>. Our chefs use only the finest and freshest ingredients to <span>create delicious dishes</span> that showcase the flavors of premium cuts of meat.</p>
                 </li>
                 <li class="about-restaurant-item">
                     <img
                         srcset=""
                         src="./img/img/mobile/about-restaurant_3.jpg" 
                         alt=""
-                        class=""
+                        class="about-restaurant-img"
                         width="157"
                         height="149"
                         >
+                    <p class="about-restaurant-text">Our <span>slow-cooking process</span> and expert seasoning bring out the best in each dish, making for an unforgettable dining experience. Come taste the magic of <span>meat preparation</span> at Mimino.</p>
                 </li>
             </ul>
             <div class="about-restaurant-text-wrap">

@@ -1,0 +1,28 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .about-restaurant-item {
+        flex-basis: calc((100% - 2*32px)/3);
+    }
+
+    .about-restaurant-item > .about-restaurant-text {
+        display: block;
+    }
+
+    .about-restaurant-text {
+        display: none;
+    }
+
+    .about-restaurant-img {
+        src: url(../img/img/desktop);
+    }
+
+    .about-restaurant-list {
+        flex-direction: initial;
+    }
+
+
+}
+

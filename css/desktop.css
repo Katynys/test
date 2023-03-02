@@ -23,6 +23,9 @@
         flex-direction: initial;
     }
 
+    .menu-wrap {
+        flex-direction: row;
+    }
 
 }
 

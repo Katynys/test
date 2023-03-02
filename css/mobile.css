@@ -2,4 +2,23 @@
     .container {
         max-width: 375px;
     }
+
+    .restaurant-menu-subtitle {
+        font-weight: 500;
+    }
+
+    .menu-descr {
+        max-width: 250px;
+    }
+
+    .price-container {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .menu-price {
+        max-width: 60px;
+    }
+
 }

@@ -42,6 +42,13 @@
         font-weight: 500;
     }
 
+    .restaurant-menu-btn {
+        min-width: 170px;
+        height: 42px;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
 
 
 }

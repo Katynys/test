@@ -105,9 +105,7 @@ img {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     border: 0.8px solid #121212;
-    border-radius: 32px;
-
-    
+    border-radius: 32px; 
 }
 
 .btn-wrap {
@@ -210,6 +208,9 @@ img {
     outline: 2px solid yellowgreen;
 }
 
+.about-restaurant-item {
+    
+}
 
 
 
@@ -219,6 +220,7 @@ img {
 .restaurant-menu {
     background-color: var(--title-black);
     color: #F7F7F7;
+    padding-bottom: 96px;
 }
 
 
@@ -232,10 +234,20 @@ img {
     text-align: center;
 }
 
+.menu-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 72px;
+    row-gap: 50px;
+    max-width: 1104px;
+    margin: 0 auto;
+    outline: 2px solid #d81515;
+}
+
 .restaurant-menu-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 375px;
+    max-width: 515px;
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
@@ -243,20 +255,20 @@ img {
     outline: 2px solid rgb(220, 210, 20);
 }
 
-.restaurant-menu-list {
+/* .restaurant-menu-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     width: 100%;
     outline: 2px solid rgb(20, 210, 220);
-}
+} */
 
 .restaurant-menu-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: stretch;
     gap: 8px;
     width: 100%;
 }
@@ -275,12 +287,27 @@ img {
 }
 
 .restaurant-menu-content {
-    display: flex;
     width: 100%;
+    /* display: flex;
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
-    outline: 2px solid rgb(220, 20, 170);
+    outline: 2px solid rgb(220, 20, 170); */
+}
+
+.menu-descr {
+    display: flex;
+    flex-direction: column;
+    max-width: 215px;
+    gap: 8px;
+}
+
+.menu-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 55px;
+    gap: 8px;
 }
 
 .restaurant-menu-subtitle {
@@ -295,7 +322,7 @@ img {
 }
 
 .restaurant-menu-description {
-    max-width: 215px;
+    /* max-width: 215px; */
     font-family: 'Geometria';
     font-style: normal;
     font-weight: 400;
@@ -304,6 +331,7 @@ img {
     letter-spacing: 0.18em;
     color: rgba(216, 215, 215, 0.5);
 }
+
 
 
 .price-container {
@@ -321,3 +349,20 @@ img {
     color: #D8D7D7;
     align-items: center;
 }
+
+.restaurant-menu-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 96px;
+    min-width: 140px;
+    height: 40px;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    background-color: transparent;
+}
+
